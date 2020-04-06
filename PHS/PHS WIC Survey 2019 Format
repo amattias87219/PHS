@@ -1,0 +1,55 @@
+proc format;
+  value unit_fmt 1="WIC - Astoria"
+                 2="WIC - Bushwick"
+                 3="WIC - Corona"
+                 4="WIC - East Tremont"
+                 5="WIC - Flushing"
+                 6="WIC - Jamaica"
+                 7="WIC - Ocean Avenue"
+                 8="WIC - Ridgewood"
+                 9="WIC - Sunset Park";
+
+  value lang_fmt 1="English"
+                 2="Spanish"
+                 3="Chinese/Mandarin"
+                 4="Arabic"
+                 5="Bengali"
+                 6="French"
+                 7="Russian"
+                 8="Uzbek";
+
+value q1_1_fmt 1="Enrolled in WIC";
+value q1_2_fmt 1="Parent of a child enrolled in WIC";
+value q1_3_fmt 1="Family member or proxy";
+
+value q2 1="Less than 1 year"
+         2="More than 1 year"
+        -3="No response";
+
+value q3 1="Individual Session"
+         2="Group Session"
+         3="Both";
+
+value q4 0="As expected"
+        -1="Longer than expected"
+         1="Shorter than expected";
+
+value q5 -1="Poor"
+          0="Average"
+          1="Good"
+          2="Excellent";
+
+value likert_NSUA 0="Never"
+                  1="Sometimes"
+                  2="Usually"
+                  3="Always";
+
+value yesno_noresponse_na -3="No Response"
+                           0="No"
+                           1="Yes"
+                          77="Doesn't Apply to Me";
+
+value yesno_noresponse    -3="No Response"
+                           0="No"
+                           1="Yes";
+run;
